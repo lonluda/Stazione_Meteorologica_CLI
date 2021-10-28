@@ -9,9 +9,15 @@ con la misuarzione di temperatura e umidità. Il valore di pressione mostrato ne
 è presente per ulteriori sviluppi futuri, il valore è fisso e non rilevato realmente.
 
 # IMPORTANTE 
-Accertarsi sempre che il file config.ini sia sempre nella stessa cartella
+Accertarsi sempre che il file config.ini sia nella stessa cartella
 dell'applicazione "Stazione_meteorologica.exe", 
-pena il mancato funzionamento della stessa.
+pena il mancato funzionamento della stessa. Inoltre bisogna rilevare
+la porta di comunicazione COM assegnata da Windows alla periferica di lettura
+e scrivere il numero della porta COM nella relativa sezione dedicata 
+del file config.ini es. :
+
+; Porta di Comunicazione
+porta = COM4
 
 La cartella 'source' contiene i file sorgenti scritti in Python per eventuali modifiche 
 e implementazioni future al software.
