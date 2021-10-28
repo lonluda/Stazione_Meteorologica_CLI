@@ -16,7 +16,7 @@ la porta di comunicazione COM assegnata da Windows alla periferica di lettura
 e scrivere il numero della porta COM nella relativa sezione dedicata 
 del file config.ini :
 
-[...]
+[...] \n
 ; Porta di Comunicazione
 porta = COM4
 [...]
