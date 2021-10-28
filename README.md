@@ -19,10 +19,10 @@ del file config.ini es. :
 ; Porta di Comunicazione
 porta = COM4
 
-###### source
+### source
 La cartella 'source' contiene i file sorgenti scritti in Python per eventuali modifiche 
 e implementazioni future al software.
 
-###### arduino
+### arduino
 La cartella 'arduino' contiene il file sketch e relative librerie da introdurre nelle
 cartelle del software Arduino per poterci lavorare correttamente.
