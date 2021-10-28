@@ -16,8 +16,10 @@ la porta di comunicazione COM assegnata da Windows alla periferica di lettura
 e scrivere il numero della porta COM nella relativa sezione dedicata 
 del file config.ini :
 
+[...]
 ; Porta di Comunicazione
 porta = COM4
+[...]
 
 ### source
 La cartella 'source' contiene i file sorgenti scritti in Python per eventuali modifiche 
