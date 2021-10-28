@@ -19,7 +19,6 @@ del file config.ini :
 [...]
 
 ; Porta di Comunicazione
-
 porta = COM4
 
 [...]
