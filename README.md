@@ -10,7 +10,8 @@ con la misuarzione di temperatura e umidità. Il valore di pressione mostrato ne
 
 # IMPORTANTE 
 Accertarsi sempre che il file config.ini sia sempre nella stessa cartella
-dell'applicazione "Stazione_meteorologica.exe", pena il mancato funzionamento della stessa.
+dell'applicazione "Stazione_meteorologica.exe", 
+pena il mancato funzionamento della stessa.
 
 La cartella 'source' contiene i file sorgenti scritti in Python per eventuali modifiche 
 e implementazioni future al software.
