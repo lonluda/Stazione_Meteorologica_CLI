@@ -1,4 +1,4 @@
-# stazione_meteorologica 
+# Stazione Meteorologica 
 
 Progetto per la misurazione di Temperatura e Umidità relativa ambiente
 tramite il sensore DHT22 il quale misura queste due grandezze fisiche 
