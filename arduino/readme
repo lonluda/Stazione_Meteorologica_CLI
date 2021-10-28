@@ -1,0 +1,7 @@
+Versione Sketch 1.0
+Dispositivo di misurazione: Sensore DHT22
+
+Sketch da scrivere in Arduino, per legge i dati trasmessi dal sensore DHT22 ad un 
+pin scelto della scheda Arduino. Copia la cartella "stazione_meterologica" nel percorso
+degli sketch di Arduino e il contenuto della relativa cartella "libraries" deve essere
+copiata sempre nella relativa cartella già esistente.
