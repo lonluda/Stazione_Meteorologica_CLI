@@ -1,25 +1,19 @@
-# Nuova versione con interfaccia grafica disponibile: <br> https://github.com/lonluda/Stazione_Meteorologica_GUI
+# New version with GUI: <br> https://github.com/lonluda/Stazione_Meteorologica_GUI
 
 -----
 
-# Stazione Meteorologica 
+# Weather Station
 
-Progetto per la misurazione di Temperatura e Umidità relativa ambiente
-tramite il sensore DHT22 il quale misura queste due grandezze fisiche 
-e le trasmette ad arduino per una corretta gestione.
+A project for measuring ambient temperature and relative humidity using the DHT22 sensor,
+which reads these two physical quantities and transmits them to an Arduino for proper handling.
 
-Il software produce ogni 60 minuti un output in formato Csv 
-con la misuarzione di temperatura e umidità. Il valore di pressione mostrato nella v1.0 
-è presente per ulteriori sviluppi futuri, il valore è fisso e non rilevato realmente.
+The software outputs a CSV file every 60 minutes with temperature and humidity measurements. 
+The pressure value shown in v1.0 is included for future developments—it is fixed and not actually measured.
 
-
-# IMPORTANTE 
-Accertarsi sempre che il file config.ini sia nella stessa cartella
-dell'applicazione "Stazione_meteorologica.exe", 
-pena il mancato funzionamento della stessa. Inoltre bisogna rilevare
-la porta di comunicazione COM assegnata da Windows alla periferica di lettura
-e scrivere il numero della porta COM nella relativa sezione dedicata 
-del file config.ini :
+# IMPORTANT 
+Always ensure the config.ini file is located in the same folder as the Stazione_meteorologica.exe application,
+or it will fail to work. You also need to detect the COM port assigned by Windows to the reading device
+ and enter the COM port number in the relevant section of config.ini:
 
 [...]
 
@@ -30,12 +24,9 @@ porta = COM4
 
 [...]
 
-
 ### source
-La cartella 'source' contiene i file sorgenti scritti in Python per eventuali modifiche 
-e implementazioni future al software.
+The source folder contains the Python source files for future modifications and extensions of the software.
 
 
 ### arduino
-La cartella 'arduino' contiene il file sketch e relative librerie da introdurre nelle
-cartelle del software Arduino per poterci lavorare correttamente.
+The arduino folder contains the Arduino sketch and relevant libraries that must be placed in the Arduino software folders for proper usage.
