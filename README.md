@@ -1,5 +1,4 @@
-# Nuova versione con interfaccia grafica disponibile:
-https://github.com/lonluda/Stazione_Meteorologica_GUI
+# Nuova versione con interfaccia grafica disponibile: <br> https://github.com/lonluda/Stazione_Meteorologica_GUI
 
 -----
 
