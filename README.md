@@ -1,3 +1,7 @@
+# Nuova versione con interfaccia grafica disponibile [url=https://github.com/lonluda/Stazione_Meteorologica_GUI]qui[/url] 
+
+-----
+
 # Stazione Meteorologica 
 
 Progetto per la misurazione di Temperatura e Umidità relativa ambiente
